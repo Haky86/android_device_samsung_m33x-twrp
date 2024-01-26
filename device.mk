@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+# Inherit from common AOSP config
+$(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
 DEVICE_PATH := device/samsung/m33x
 
 PRODUCT_BUILD_SUPER_PARTITION := false
