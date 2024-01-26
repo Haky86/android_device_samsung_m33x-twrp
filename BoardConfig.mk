@@ -17,6 +17,7 @@
 DEVICE_PATH := device/samsung/m33x
 
 ALLOW_MISSING_DEPENDENCIES := true
+BUILD_BROKEN_DUP_RULES := true
 
 # 64 Bit
 TARGET_CPU_SMP := true
